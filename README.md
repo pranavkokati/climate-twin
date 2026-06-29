@@ -15,7 +15,7 @@ by 2.5°F."
 
 ---
 
-## Built on real data — not invented
+## Built on real data!
 
 Climate baselines come from public NOAA NCEI daily summaries (1991-2020),
 fetched at build / run time. Mid-century projections apply IPCC AR6 WG1
