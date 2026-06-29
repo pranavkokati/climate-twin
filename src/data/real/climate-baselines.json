@@ -1,0 +1,39 @@
+{
+  "_source": "NOAA NCEI Daily Summaries",
+  "_period": "1991-2020",
+  "_stations": {
+    "seattle": "USW00013743",
+    "phoenix": "USW00023183",
+    "miami": "USW00012839"
+  },
+  "seattle": {
+    "heatDays95F": 14,
+    "extremeHeatDays105F": 1,
+    "summerHotDays": 34,
+    "precipInches": 41.8,
+    "precipSDInches": 8.9,
+    "heavyRainDays": 10.2,
+    "longestDryStreakDays": 22.5,
+    "freezeDays": 60
+  },
+  "phoenix": {
+    "heatDays95F": 145,
+    "extremeHeatDays105F": 68,
+    "summerHotDays": 91,
+    "precipInches": 7.2,
+    "precipSDInches": 2.7,
+    "heavyRainDays": 1.6,
+    "longestDryStreakDays": 91.7,
+    "freezeDays": 2
+  },
+  "miami": {
+    "heatDays95F": 6,
+    "extremeHeatDays105F": 0,
+    "summerHotDays": 64,
+    "precipInches": 67.4,
+    "precipSDInches": 8.8,
+    "heavyRainDays": 20.8,
+    "longestDryStreakDays": 25.2,
+    "freezeDays": 0
+  }
+}

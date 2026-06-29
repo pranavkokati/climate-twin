@@ -156,7 +156,9 @@ export function synthesizeClimateStory(
 
   if (drought && droughtDelta > 0) {
     paragraphs.push(
-      `Dry seasons lengthen. Summer water deficits grow by ${droughtDelta} inches annually — relevant for residential landscaping, urban tree survival, and reservoir reliability.`,
+      `Dry seasons lengthen. The longest annual dry streak in ${
+        neighborhood ? neighborhood.name : "the metro"
+      } grows by ${droughtDelta} days — relevant for residential landscaping, urban tree survival, and reservoir reliability.`,
   );
   }
 
@@ -185,7 +187,7 @@ export function synthesizeClimateStory(
   if (drought && droughtDelta > 0)
     risks.push({
       hazard: "drought" as const,
-      delta: `+${droughtDelta} inches annual water deficit`,
+      delta: `+${droughtDelta} days longest dry streak`,
     });
   if (wind)
     risks.push({
